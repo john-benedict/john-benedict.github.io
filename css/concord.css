@@ -1,0 +1,43 @@
+body			{ position: relative; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; }
+
+#logo			{ margin: 15px auto; text-align: center; }
+#logo img		{ margin: auto; text-align: center; }
+
+#app-wrap		{ margin-bottom: 30px; }
+
+.alert pre { margin: 0; padding: 0; word-break: normal; word-wrap: normal; background-color: transparent; border: none; white-space: pre-wrap; color: #31708f; }
+.alert-danger pre { color: #a94442; }
+.alert-success pre { color: #3c763d; }
+
+.action-bar		{ margin: 15px 0; padding: 15px; background: rgba(0, 0, 0, 0.05); border-radius: 4px; }
+.action-bar p	{ margin: 0; padding: 0; }
+
+pre a			{ font-weight: bold; text-decoration: underline; }
+
+.alert-info pre a { color: #31708f; }
+
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+
+
+@media only screen and (max-width : 1200px) {
+	.action-bar, .action-bar p { text-align: left !important; }
+}
+@media only screen and (max-width : 992px) {
+	.action-bar, .action-bar p { text-align: center !important; }
+	.form-control, input, select, textarea, .checkbox, .checkbox-inline, .radio, .radio-inline, .btn { font-size: 16px; }
+	.action-bar .btn { float: none !important; display: block; margin-bottom: 8px; }
+	.action-bar .btn:last-child { margin-bottom: 0; }
+}
