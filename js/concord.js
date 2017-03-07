@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	// Version check
-	console.log("v.0.8.1.9");
+	console.log("v.0.8.2.0");
 	//console.log("window: " + window);
 	
 	// Check to see that indexedDB is supported
